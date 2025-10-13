@@ -137,7 +137,7 @@ Your data stays yours. Full transparency, complete control, and the ability to d
 
 ---
 
-**Built with ❤️ by Five AI Limited**  
+**Built with ❤️ by Five AI Team!**  
 *Empowering professionals to achieve their unfair advantage, one action at a time.*
 
-© 2025 Five AI Limited. All rights reserved.
+© 2025 UnboundDXLabs Private Limited. All rights reserved.
