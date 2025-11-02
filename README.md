@@ -6,6 +6,8 @@
 [![Contact](https://img.shields.io/badge/Contact-team@fiveai.co-green?style=for-the-badge)](mailto:team@fiveai.co)
 [![Status](https://img.shields.io/badge/Status-Coming%20Soon-orange?style=for-the-badge)](http://fiveai.co)
 
+[![Five AI Logo](./logo/Five_Logo_bigsize.png)](http://fiveai.co)
+
 ---
 
 ## 🌟 Vision
