@@ -175,37 +175,89 @@ Stay engaged without being overwhelmed.
 
 ## 🏛️ Architecture
 
-**17 microservices. 2 AI engines. 1 seamless experience.**
+**17 microservices. 2 AI engines. 1 mobile app. 1 seamless experience.**
 
 ```
-                         🌐 Web Portal (React/Vite)
-                                  |
-                          🔀 API Gateway (Nginx)
-                                  |
-            ┌─────────┬─────────┬─────────┬─────────┐
-            |         |         |         |         |
-      🔐 Auth    👤 Profile  📚 Learning 🧠 Skills  🤖 Agent
-      (OAuth2)  (Onboard)   (Plans)   (Knowledge)  (AI)
-            |         |         |         |         |
-            └─────────┴─────────┴─────────┴─────────┘
-                    |         |         |         |
-              🍃 MongoDB   ⚡ Redis   📨 Kafka  🔮 Weaviate
-              (Atlas)     (Cache)   (Events)  (Vectors)
+     📱 Mobile App                    🌐 Web Portal
+     (Expo/React Native)             (React/Vite/shadcn)
+              \                         /
+               \                       /
+                🔀 API Gateway (Nginx)
+                         |
+      ┌──────────┬───────┴───────┬──────────┐
+      |          |               |          |
+  🔐 Auth    👤 Profile     📚 Learning  🧠 Skills
+  (OAuth2)   (Onboard)      (Plans)    (Knowledge)
+      |          |               |          |
+      └──────────┴───────┬───────┴──────────┘
+                         |
+         ┌───────────────┼───────────────┐
+         |               |               |
+    🤖 AI Agent     🔗 MCP Server   📨 Kafka (MSK)
+    (LangGraph)     (FastMCP)       (Event Streaming)
+         |               |               |
+    ┌────┴────┐     ┌────┴────┐    ┌────┴────┐
+    |         |     |         |    |         |
+  GPT-4o  Weaviate  MongoDB  S3  DLT Retry  Audit
+  (LLM)  (Vectors)  (Atlas)      (Saga)    (Events)
 ```
+
+### 🧱 Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
-| 🌐 **Frontend** | React + Vite + TypeScript + shadcn/ui + Tailwind CSS | Web portal + Admin dashboard |
-| 🔀 **API Gateway** | Nginx | Path-based routing, single entry point |
-| ⚙️ **Backend** | 15 Java Spring Boot + 2 Python services | Domain microservices |
-| 🤖 **AI Engine** | OpenAI GPT-4o + text-embedding-3-small | Coaching, embeddings, content generation |
-| 🍃 **Database** | MongoDB Atlas | Primary data store with Atlas Search |
-| ⚡ **Cache** | AWS ElastiCache (Redis) | Sessions, rate limiting, multi-level cache |
-| 📨 **Message Broker** | AWS MSK (Kafka) | Event-driven async processing, DLT retry |
-| 🔮 **Vector DB** | Weaviate Cloud | Semantic search, similarity matching |
-| 📦 **Object Storage** | AWS S3 | Documents, profile pictures, content |
-| 🔐 **Auth** | OAuth2/OIDC + API Keys + RBAC | Multi-layer security |
-| 📊 **Observability** | Prometheus + Grafana + Jaeger + OTel | Metrics, dashboards, distributed tracing |
+| 📱 **Mobile** | Expo + React Native + NativeWind (`five-mobile-app/five-ai-coach`) | iOS & Android native app |
+| 🌐 **Web** | React + Vite + TypeScript + shadcn/ui + Tailwind CSS (`five-web-portal`) | Web portal + Admin dashboard |
+| 🔀 **API Gateway** | Nginx (`five-api-gateway`) | Path-based routing, single entry point |
+| ⚙️ **Backend** | 15 Java Spring Boot microservices | Domain services (auth, profiles, learning, payments, etc.) |
+| 🤖 **AI Agent** | Python + LangGraph + LangChain + OpenAI GPT-4o (`five-agent`) | Stateful AI coaching workflows, multi-agent orchestration |
+| 🔗 **MCP Server** | Python + FastMCP + Weaviate (`five-mcp-server`) | Model Context Protocol — AI tool integration layer |
+| 🍃 **Database** | MongoDB Atlas (with Atlas Search) | Primary data store + full-text search |
+| ⚡ **Cache** | AWS ElastiCache (Redis) | Sessions, token blacklist, rate limiting, multi-level cache |
+| 📨 **Event Streaming** | AWS MSK (Apache Kafka) | Async event processing, DLT retry sagas, audit trails |
+| 🔮 **Vector DB** | Weaviate Cloud | Semantic search, similarity matching, embeddings (text-embedding-3-small) |
+| 📦 **Object Storage** | AWS S3 (IRSA) | Documents, profile pictures, content assets |
+| 🔐 **Auth** | OAuth2/OIDC + JWT + API Keys + RBAC | Multi-layer security with device tracking |
+| 📊 **Observability** | Prometheus + Grafana + Jaeger + OpenTelemetry | Metrics, dashboards, distributed tracing |
+| ☁️ **Infrastructure** | AWS EKS + Helm + Terraform | Kubernetes orchestration, IaC |
+
+### 📨 Event-Driven Architecture (Kafka/MSK)
+
+9 services connected via Kafka for reliable async processing:
+
+| Pattern | Use Case |
+|---------|----------|
+| 🔄 **DLT Retry Saga** | Weaviate sync failures → dead letter topic → exponential backoff retry (2m→4m→8m) |
+| 📋 **Outbox Pattern** | Subscription service → transactional event publishing |
+| 📊 **Event Sourcing** | Conversation events, context updates, message streams |
+| 🔍 **Audit Trail** | Login audit, security alerts, user activity events |
+| 🔔 **Notification Fan-out** | Community events → notification-events → multi-channel delivery |
+
+### 🤖 AI Agent Framework (LangGraph)
+
+```
+                    🎙️ User Input
+                         |
+                  Intent Classification
+                    /    |    \
+                   /     |     \
+            💡 Nudge  🗣️ Coach  📊 Summary
+             Agent    Agent     Agent
+               |        |        |
+            Search   Generate  Summarize
+            (Weaviate) (GPT-4o) (Context)
+               |        |        |
+               └────────┼────────┘
+                         |
+                  ✅ Verification Agent
+                         |
+                  📤 Response Delivery
+```
+
+- **LangGraph** — Stateful multi-agent workflows with conditional routing
+- **LangChain** — LLM abstraction, prompt templates, output parsing
+- **FastMCP** — Model Context Protocol server exposing 20+ AI tools
+- **Weaviate** — Vector similarity search for contextual retrieval
 
 ### 🔐 Security
 
