@@ -248,6 +248,11 @@ Stay engaged without being overwhelmed.
 
 **Beta — Live on AWS EKS**
 
+| | |
+|---|---|
+| 🌐 **Web Portal** | [k8s-fivesyst-fivewebp-e80d08c539-f89fe73f1edec0b0.elb.us-west-2.amazonaws.com](http://k8s-fivesyst-fivewebp-e80d08c539-f89fe73f1edec0b0.elb.us-west-2.amazonaws.com) |
+| 🔀 **API Gateway** | [k8s-fivesyst-fiveapig-8a74e2c9c8-c2f5f03d59d33694.elb.us-west-2.amazonaws.com](http://k8s-fivesyst-fiveapig-8a74e2c9c8-c2f5f03d59d33694.elb.us-west-2.amazonaws.com) |
+
 All 17 services deployed and running. Full managed services infrastructure:
 
 - 🍃 MongoDB Atlas (document database)
@@ -268,7 +273,7 @@ All 17 services deployed and running. Full managed services infrastructure:
 
 ---
 
-**Built with ❤️ by Five AI Limited**
+**Built with ❤️ by Five AI**
 *One action at a time. Every day. Until your career catches up with your ambition.* ✨
 
-Copyright 2025-2026 Five AI Limited. All rights reserved.
+Copyright 2025-2026 UnboundXLabs Private Limited. All rights reserved.
