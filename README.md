@@ -1,10 +1,10 @@
-# 🚀 Five AI - Career Co‑Pilot
+# 🚀 Five AI — Career Co-Pilot
 
-## *Your career co-pilot — one daily action that compounds into unfair advantage.*
+### ✨ One daily action. Compounding career advantage.
 
-[![Website](https://img.shields.io/badge/Website-fiveai.co-blue?style=for-the-badge)](http://fiveai.co)
-[![Contact](https://img.shields.io/badge/Contact-team@fiveai.co-green?style=for-the-badge)](mailto:team@fiveai.co)
-[![Status](https://img.shields.io/badge/Status-Coming%20Soon-orange?style=for-the-badge)](http://fiveai.co)
+[![Website](https://img.shields.io/badge/🌐_Website-fiveai.co-0066FF?style=for-the-badge)](http://fiveai.co)
+[![Beta](https://img.shields.io/badge/🟢_Beta-Live-00C853?style=for-the-badge)](http://fiveai.co)
+[![Contact](https://img.shields.io/badge/📧_Contact-team@fiveai.co-FF6B35?style=for-the-badge)](mailto:team@fiveai.co)
 
 [![Five AI Logo](./logo/Five_Logo_bigsize.png)](http://fiveai.co)
 
@@ -14,68 +14,57 @@
 
 > **Empower professionals to take charge of their careers with personalized, AI-driven support that fits seamlessly into their busy lives.**
 
-We're revolutionizing how ambitious professionals accelerate their careers by transforming overwhelming career development into simple, actionable daily steps that compound into extraordinary results.
+Most professionals know they should invest in their careers. Few do — because traditional advice is overwhelming, generic, and disconnected from real life. Five changes that. We deliver one personalized micro-action per day that compounds into visible career breakthroughs.
 
 ---
 
-## ✨ What Makes Five AI Special?
+## ⚡ What Makes Five AI Special
 
-### 🎯 5-Minute Transformation
+| | |
+|---|---|
+| 🎯 **5-Minute Transformation** | Turn career growth into one simple daily action that creates lasting impact without overwhelming your schedule. |
+| 🧠 **AI That Knows You** | Your personal career coach that remembers your history, learns your style, and adapts to your unique professional journey. |
+| 🏆 **Proven Results** | Deliver **3 visible wins in your first 7 days** with our scientifically-designed momentum system. |
+| 🔒 **Privacy-First** | Your data stays yours. Full transparency, complete control, and the ability to delete everything anytime. |
 
-Turn career growth into one simple daily action that creates lasting impact without overwhelming your schedule.
+---
 
-### 🧠 AI That Knows You
-
-Your personal career coach that remembers your history, learns your style, and adapts to your unique professional journey.
-
-### 🚀 Proven Results
-
-Deliver **3 visible wins in your first 7 days** with our scientifically-designed momentum system.
-
-### 🔒 Privacy-First
-
-Your data stays yours. Full transparency, complete control, and the ability to delete everything anytime.
-
-## 🎯 What We Do
+## 💡 Why Five AI
 
 **Five empowers professionals to take control of their career journeys through personalized, AI-driven guidance that fits seamlessly into busy lives.**
 
-### 🌟 Core Features
-
 | Feature | Description | Impact |
 |---------|-------------|--------|
-| 💡 **Daily Nudges** | 5-minute micro-actions for confidence & networking | Create lasting change without overwhelming your schedule |
-| � **AI Career Coach** | Contextual executive coaching with memory | 24/7 support for high-stakes career moments |
+| 💡 **Daily Nudges** | 5-minute micro-actions for confidence and networking | Create lasting change without overwhelming your schedule |
+| 🤖 **AI Career Coach** | Contextual executive coaching with long-term memory | 24/7 support for high-stakes career moments |
 | 🎯 **Smart Goal Setting** | Co-designed wins aligned with your aspirations | 3 visible wins in your first 7 days |
-| � **Progress Vault** | Track achievements and build your career story | Build a visible record for performance reviews |
-| �️ **AI Power Tools** | Resume optimizer, outreach builder, communication enhancer | Amplify your professional impact instantly |
+| 📊 **Progress Vault** | Track achievements and build your career story | Build a visible record for performance reviews |
+| ⚡ **AI Power Tools** | Resume optimizer, outreach builder, communication enhancer | Amplify your professional impact instantly |
 
-## 🌟 Why Choose Five AI?
-
-### 🎯 Perfect For Professionals Who Want
+### 🎯 Perfect For
 
 | Challenge | Five AI Solution |
 |-----------|------------------|
-| 👁️ **"My work goes unnoticed"** | Get visibility with strategic positioning & communication tools |
+| 👁️ **"My work goes unnoticed"** | Get visibility with strategic positioning and communication tools |
 | 🔄 **"I feel stuck in my role"** | Break plateaus with personalized advancement roadmaps |
 | 🤝 **"I lack the right connections"** | Build meaningful relationships through guided networking |
-| 🗣️ **"I struggle to speak up"** | Gain confidence with practice scenarios & impact frameworks |
+| 🗣️ **"I struggle to speak up"** | Gain confidence with practice scenarios and impact frameworks |
 | 🤖 **"AI is moving too fast"** | Master AI tools with curated, practical applications |
 
 ### 🚀 The Five AI Advantage
 
 > **Why settle for generic career advice when you can have a personalized co-pilot?**
 
-- ✨ **Sounds Like You**: AI that matches your voice and professional style
-- ⚡ **Micro-Momentum**: 5 minutes daily beats overwhelming intensity
-- 🔐 **Your Data, Your Control**: Complete transparency and ownership
-- 📈 **Measurable Wins**: Track real progress, not just feel-good metrics
+- ✨ **Sounds Like You** — AI that matches your voice and professional style
+- ⚡ **Micro-Momentum** — 5 minutes daily beats overwhelming intensity
+- 🔐 **Your Data, Your Control** — Complete transparency and ownership
+- 📈 **Measurable Wins** — Track real progress, not just feel-good metrics
+
+---
 
 ## 🧠 Our Philosophy
 
-> **"Small daily actions compound into career breakthroughs"**
-
-### 💭 Core Beliefs
+> *"Small daily actions compound into career breakthroughs"*
 
 | Principle | What It Means |
 |-----------|---------------|
@@ -85,61 +74,201 @@ Your data stays yours. Full transparency, complete control, and the ability to d
 | 🔄 **Compound Effect** | Nudges + Tools + Community = Career Acceleration |
 | 🌐 **Network Effects** | Success multiplies when shared with others |
 
-## 🏗️ Product Roadmap
+---
 
-### 🎯 Current Focus (2025 MVP)
+## 🏗️ The Platform
 
-| Phase | Features | Status |
-|-------|----------|--------|
-| 📱 **Mobile Foundation** | iOS & Android native apps | 🚧 In Development |
-| 🤖 **AI Core** | Personalized coaching engine | 🚧 In Development |
-| 📊 **Progress Engine** | Goal tracking & achievements | 🚧 In Development |
-| ⚡ **Habit System** | Smart streaks & gentle reminders | 🚧 In Development |
+### 🤖 AI Career Coach
 
-### 🚀 Coming Next
+A conversational AI coach that doesn't just respond — it *remembers*. Every interaction builds on the last. It knows your goals, your communication style, your wins, and your pain points. Context-aware coaching for high-stakes moments: negotiations, performance reviews, difficult conversations, career pivots.
 
-| Feature | Description | Timeline |
-|---------|-------------|----------|
-| 👥 **AI Communities** | Smart peer groups for deeper connections | Q2 2025 |
-| 🔄 **Smart Automation** | Calendar sync & template library | Q3 2025 |
-| 🎓 **Role Mastery** | Tech & business competency frameworks | Q4 2025 |
-| 🌍 **Global Ready** | Multi-language & regional adaptation | 2026 |
+- 🧠 Long-term memory across conversations
+- 🎯 Intent-aware routing to specialized coaching modes
+- ⚡ Streaming responses with real-time evaluation
+- ✅ Coaching quality verification built in
 
-> **More game-changing features in the pipeline — stay tuned! 🚀**
+### 📚 Personalized Learning Engine
 
-## �️ Our Commitment to You
+Not a course library. A living system that adapts to how you learn, what you need, and where you are in your career.
 
-### 🔐 Privacy by Design
+| Feature | What It Does |
+|---------|-------------|
+| 📋 **Learning Plans** | Curated paths aligned to your goals — not generic career tracks |
+| 💡 **Daily Nudges** | 5-minute micro-actions that build confidence, visibility, and skills |
+| 📖 **Lessons & Hacks** | Practical frameworks for real workplace challenges |
+| 💬 **Tips & Tidbits** | Bite-sized insights delivered when you need them |
+| 📝 **Assessments** | Measure growth, identify gaps, calibrate your path |
+| 🪞 **Reflections** | Weekly prompts that turn experience into wisdom |
+| 🎯 **Personal Goals** | Set, track, and achieve milestones with AI support |
 
-| Principle | Our Promise |
-|-----------|-------------|
-| 🔒 **Data Ownership** | Your data stays yours with granular controls |
-| 🔍 **Full Transparency** | "What we used" insights for every AI interaction |
-| 🚪 **Easy Exit** | Delete everything anytime with full portability |
-| 🌍 **Global Standards** | GDPR, CCPA, and beyond compliance-ready |
+### 🏆 Gamification & Progress
 
-### 🌈 Inclusive & Accessible
+Career growth should feel rewarding, not exhausting.
 
-- 👩‍💼 **Originally designed** for women professionals in mid-career roles
-- 🌟 **Now expanding** to serve all ambitious professionals
-- ♿ **Accessibility first** with WCAG 2.1 AA compliance
-- 🌍 **Globally minded** with cultural sensitivity built-in
+- 🔥 **Streaks** — Build momentum with daily consistency (with freeze protection)
+- 🏅 **Achievements** — Unlock badges and levels as you grow
+- 📊 **Points & Leaderboards** — See where you stand, celebrate progress
+- 📁 **Progress Vault** — A living record of wins for performance reviews and interviews
+
+### 🧩 AI Power Tools
+
+Built-in intelligence that goes beyond chat.
+
+**🤖 Agent Architecture** — Not a single chatbot. A network of specialized AI agents that collaborate:
+
+| Agent | Role |
+|-------|------|
+| 🎙️ **Coaching Agent** | Primary conversational coach — intent routing, context-aware responses, streaming |
+| 🔍 **Evaluation Agent** | Monitors coaching quality in real-time, scores and verifies every interaction |
+| 💡 **Nudge Agent** | Generates personalized daily micro-actions based on your goals and history |
+| 💎 **Tidbit Agent** | Delivers context-relevant career insights at the right moment |
+| 🗺️ **Journey Agent** | Summarizes your progress, identifies patterns, generates career narratives |
+| ✅ **Verification Agent** | Cross-checks AI outputs for accuracy, relevance, and safety |
+
+**📋 Plan & Execute Model** — Every coaching interaction follows a structured flow:
+
+```
+User Input → Intent Classification → Agent Selection → Plan Generation
+    → Sub-Agent Execution → Quality Verification → Response Delivery
+```
+
+- 🧩 Agents decompose complex career questions into sub-tasks
+- ⚙️ Each sub-agent specializes (search, generate, evaluate, summarize)
+- 🛡️ Results are verified before delivery — no hallucinated career advice
+- 💾 Full conversation context preserved across sessions
+
+**🔧 AI Infrastructure:**
+
+- 🔍 **Smart Search** — Semantic vector search across skills, wins, pain points, and career knowledge
+- 🕸️ **Context Graph** — Your career knowledge mapped as an interconnected graph with relationships
+- 📝 **Prompt Library** — Tested, versioned, A/B-tested prompts for every coaching scenario
+- 🔗 **MCP Integration** — Model Context Protocol tools connecting profile, learning, and conversation data
+- 🛡️ **PII Detection** — Automatic detection and filtering of sensitive information
+- 🔒 **Injection Protection** — Prompt injection detection and mitigation built in
+
+### 👥 Community & Engagement
+
+Career growth multiplies when shared.
+
+- 💬 **Posts & Discussions** — Share insights, ask questions, celebrate wins
+- 👥 **Groups & Events** — Join communities aligned to your career stage
+- 🛡️ **Moderation** — Safe, professional space with built-in reporting
+
+### 💳 Subscription & Payments
+
+Flexible plans for individuals and enterprises.
+
+- 📦 **Tiered Plans** — Free, Pro, Enterprise with usage-based metering
+- 💰 **Multiple Gateways** — Stripe, PayPal, Razorpay support
+- 🤝 **Affiliate Program** — Referral tracking, commissions, invoicing
+- 📊 **Enterprise Monitoring** — Usage dashboards for organizations
+
+### 🔔 Notifications
+
+Stay engaged without being overwhelmed.
+
+- 📱 **Multi-Channel** — Email, SMS, WhatsApp, Push (configurable)
+- ✉️ **Smart Templates** — Personalized notification content
+- 📈 **Delivery Analytics** — Track engagement across channels
 
 ---
 
-## 🚀 Ready to Transform Your Career?
+## 🏛️ Architecture
 
-### 📞 Get Started
+**17 microservices. 2 AI engines. 1 seamless experience.**
 
-| Channel | Link | Purpose |
-|---------|------|----------|
-| 🌐 **Website** | [fiveai.co](http://fiveai.co) | Learn more & early access |
-| 📧 **Email** | [team@fiveai.co](mailto:team@fiveai.co) | Questions & partnerships |
-| 📱 **Updates** | Coming Soon! | Product launches & insights |
+```
+                         🌐 Web Portal (React/Vite)
+                                  |
+                          🔀 API Gateway (Nginx)
+                                  |
+            ┌─────────┬─────────┬─────────┬─────────┐
+            |         |         |         |         |
+      🔐 Auth    👤 Profile  📚 Learning 🧠 Skills  🤖 Agent
+      (OAuth2)  (Onboard)   (Plans)   (Knowledge)  (AI)
+            |         |         |         |         |
+            └─────────┴─────────┴─────────┴─────────┘
+                    |         |         |         |
+              🍃 MongoDB   ⚡ Redis   📨 Kafka  🔮 Weaviate
+              (Atlas)     (Cache)   (Events)  (Vectors)
+```
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| 🌐 **Frontend** | React + Vite + TypeScript + shadcn/ui + Tailwind CSS | Web portal + Admin dashboard |
+| 🔀 **API Gateway** | Nginx | Path-based routing, single entry point |
+| ⚙️ **Backend** | 15 Java Spring Boot + 2 Python services | Domain microservices |
+| 🤖 **AI Engine** | OpenAI GPT-4o + text-embedding-3-small | Coaching, embeddings, content generation |
+| 🍃 **Database** | MongoDB Atlas | Primary data store with Atlas Search |
+| ⚡ **Cache** | AWS ElastiCache (Redis) | Sessions, rate limiting, multi-level cache |
+| 📨 **Message Broker** | AWS MSK (Kafka) | Event-driven async processing, DLT retry |
+| 🔮 **Vector DB** | Weaviate Cloud | Semantic search, similarity matching |
+| 📦 **Object Storage** | AWS S3 | Documents, profile pictures, content |
+| 🔐 **Auth** | OAuth2/OIDC + API Keys + RBAC | Multi-layer security |
+| 📊 **Observability** | Prometheus + Grafana + Jaeger + OTel | Metrics, dashboards, distributed tracing |
+
+### 🔐 Security
+
+- 🔑 OAuth2/OIDC authentication with JWT tokens
+- 👮 Role-Based Access Control (RBAC) with granular permissions
+- 🔗 API key inter-service authentication
+- 📍 Device tracking and geo-anomaly detection
+- 🚫 Token blacklisting and session management
+- 🛡️ GDPR-compliant data handling with consent tracking
+- 🔒 Encryption in transit (TLS) for all managed services
 
 ---
 
-**Built with ❤️ by Five AI Limited**  
-*Empowering professionals to achieve their unfair advantage, one action at a time.*
+## 📡 Services
 
-© 2025 Five AI Limited. All rights reserved.
+| Service | Port | Purpose |
+|---------|------|---------|
+| 🌐 five-web-portal | 80 | React frontend + Admin UI |
+| 🔀 five-api-gateway | 80 | Nginx reverse proxy |
+| 🔐 five-auth-service | 17990 | OAuth2/OIDC provider |
+| 👤 five-user-identity-service | 17979 | Users, roles, API keys, sessions |
+| 📋 five-user-profile-service | 17878 | Profiles, onboarding, preferences |
+| 🤖 five-agent | 18000 | AI coaching engine (Python) |
+| 🔗 five-mcp-server | 15555 | AI tool integration (Python) |
+| 📚 five-learning-goal-mgmt-service | 16969 | Learning plans, lessons, nudges, goals |
+| 🧠 five-skill-knowledge-mgmt-service | 16565 | Skills, occupations, pain points, wins |
+| 💬 five-context-conversation-service | 19595 | Conversations, context graph |
+| 📄 five-content-management-service | 18181 | Documents, surveys, media |
+| 🔔 five-notification-service | 18383 | Multi-channel notifications |
+| 🏆 five-feedback-service | 18686 | Gamification, achievements, ratings |
+| 💳 five-subscription-service | 18989 | Plans, payments, billing |
+| 💰 five-payment-gateway-service | 18787 | Payment processing |
+| 📊 five-analytics-metering-service | 17070 | Usage metrics, activity tracking |
+| 📝 five-prompt-service | 18585 | Prompt library, testing, versioning |
+| 👥 five-community-engagement-service | 17373 | Posts, groups, events |
+
+---
+
+## 🟢 Status
+
+**Beta — Live on AWS EKS**
+
+All 17 services deployed and running. Full managed services infrastructure:
+
+- 🍃 MongoDB Atlas (document database)
+- ⚡ AWS ElastiCache (caching + sessions)
+- 📨 AWS MSK (event streaming)
+- 🔮 Weaviate Cloud (vector search)
+- 📦 AWS S3 (object storage)
+
+---
+
+## 🚀 Get Started
+
+| | |
+|---|---|
+| 🌐 **Website** | [fiveai.co](http://fiveai.co) |
+| 📧 **Email** | [team@fiveai.co](mailto:team@fiveai.co) |
+| 🟢 **Status** | Beta — accepting early users |
+
+---
+
+**Built with ❤️ by Five AI Limited**
+*One action at a time. Every day. Until your career catches up with your ambition.* ✨
+
+Copyright 2025-2026 Five AI Limited. All rights reserved.
