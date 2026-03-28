@@ -302,8 +302,9 @@ Stay engaged without being overwhelmed.
 
 | | |
 |---|---|
-| 🌐 **Web Portal** | [k8s-fivesyst-fivewebp-e80d08c539-f89fe73f1edec0b0.elb.us-west-2.amazonaws.com](http://k8s-fivesyst-fivewebp-e80d08c539-f89fe73f1edec0b0.elb.us-west-2.amazonaws.com) |
-| 🔀 **API Gateway** | [k8s-fivesyst-fiveapig-8a74e2c9c8-c2f5f03d59d33694.elb.us-west-2.amazonaws.com](http://k8s-fivesyst-fiveapig-8a74e2c9c8-c2f5f03d59d33694.elb.us-west-2.amazonaws.com) |
+| 🌐 **Web Portal** | [app.fiveai.ai](https://app.fiveai.ai) |
+| 🔐 **Auth Service** | [auth.fiveai.ai](https://auth.fiveai.ai) |
+| 🔀 **API Gateway** | [api.fiveai.ai](https://api.fiveai.ai) |
 
 All 17 services deployed and running. Full managed services infrastructure:
 
